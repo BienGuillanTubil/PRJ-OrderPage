@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Order Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Page Title -->
+        <h1>Welcome to Our Coffee Shop!</h1>
+        <p class="description">Explore our selection of delicious coffee options. Choose your favorite and order now!</p>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <a href="javascript:void(0)" class="tab-link" onclick="showCoffeeSection('espresso')">Espresso</a>
+            <a href="javascript:void(0)" class="tab-link" onclick="showCoffeeSection('latte')">Latte</a>
+            <a href="javascript:void(0)" class="tab-link" onclick="showCoffeeSection('mocha')">Mocha</a>
+            <a href="javascript:void(0)" class="tab-link" onclick="showCoffeeSection('cappuccino')">Cappuccino</a>
+            <a href="javascript:void(0)" class="tab-link" onclick="showCoffeeSection('americano')">Americano</a>
+            <a href="javascript:void(0)" class="tab-link" onclick="showCoffeeSection('macchiato')">Macchiato</a>
+        </div>
+
+        <!-- Espresso Section -->
+        <div class="coffee-section" id="espresso">
+            <h2>Espresso</h2>
+            <div class="coffee-options">
+                <!-- Espresso Coffee Options with Images -->
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Espresso Classic">
+                    <h3>Espresso Classic</h3>
+                    <p class="price">$3.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Iced Espresso">
+                    <h3>Iced Espresso</h3>
+                    <p class="price">$3.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Espresso Double Shot">
+                    <h3>Espresso Double Shot</h3>
+                    <p class="price">$4.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Espresso Con Panna">
+                    <h3>Espresso Con Panna</h3>
+                    <p class="price">$4.25</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Espresso Ristretto">
+                    <h3>Espresso Ristretto</h3>
+                    <p class="price">$4.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Espresso Affogato">
+                    <h3>Espresso Affogato</h3>
+                    <p class="price">$5.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Latte Section -->
+        <div class="coffee-section" id="latte">
+            <h2>Latte</h2>
+            <div class="coffee-options">
+                <!-- Latte Coffee Options with Images -->
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Classic Latte">
+                    <h3>Classic Latte</h3>
+                    <p class="price">$4.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Iced Latte">
+                    <h3>Iced Latte</h3>
+                    <p class="price">$4.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Caramel Latte">
+                    <h3>Caramel Latte</h3>
+                    <p class="price">$5.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Vanilla Latte">
+                    <h3>Vanilla Latte</h3>
+                    <p class="price">$5.25</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Almond Latte">
+                    <h3>Almond Latte</h3>
+                    <p class="price">$5.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Hazelnut Latte">
+                    <h3>Hazelnut Latte</h3>
+                    <p class="price">$5.75</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mocha Section -->
+        <div class="coffee-section" id="mocha">
+            <h2>Mocha</h2>
+            <div class="coffee-options">
+                <!-- Mocha Coffee Options with Images -->
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Mocha Latte">
+                    <h3>Mocha Latte</h3>
+                    <p class="price">$5.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Dark Mocha">
+                    <h3>Dark Mocha</h3>
+                    <p class="price">$5.25</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="White Mocha">
+                    <h3>White Mocha</h3>
+                    <p class="price">$5.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Iced Mocha">
+                    <h3>Iced Mocha</h3>
+                    <p class="price">$5.75</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Chocolate Mocha">
+                    <h3>Chocolate Mocha</h3>
+                    <p class="price">$6.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Mocha Frappe">
+                    <h3>Mocha Frappe</h3>
+                    <p class="price">$6.25</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cappuccino Section -->
+        <div class="coffee-section" id="cappuccino">
+            <h2>Cappuccino</h2>
+            <div class="coffee-options">
+                <!-- Cappuccino Coffee Options with Images -->
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Classic Cappuccino">
+                    <h3>Classic Cappuccino</h3>
+                    <p class="price">$4.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Iced Cappuccino">
+                    <h3>Iced Cappuccino</h3>
+                    <p class="price">$4.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Cappuccino Mocha">
+                    <h3>Cappuccino Mocha</h3>
+                    <p class="price">$5.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Americano Section -->
+        <div class="coffee-section" id="americano">
+            <h2>Americano</h2>
+            <div class="coffee-options">
+                <!-- Americano Coffee Options with Images -->
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Classic Americano">
+                    <h3>Classic Americano</h3>
+                    <p class="price">$3.50</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Iced Americano">
+                    <h3>Iced Americano</h3>
+                    <p class="price">$4.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Macchiato Section -->
+        <div class="coffee-section" id="macchiato">
+            <h2>Macchiato</h2>
+            <div class="coffee-options">
+                <!-- Macchiato Coffee Options with Images -->
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Caramel Macchiato">
+                    <h3>Caramel Macchiato</h3>
+                    <p class="price">$5.00</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="coffee-option">
+                    <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-04/BlackCoffee_LongShadow_0_1_0%20%281%29.png?itok=wkv8XBvk" alt="Iced Macchiato">
+                    <h3>Iced Macchiato</h3>
+                    <p class="price">$5.25</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2024 Our Coffee Shop | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+        </div>
+
+    </div>
+
+    <script>
+        function showCoffeeSection(section) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.coffee-section');
+            sections.forEach(sec => sec.style.display = 'none');
+
+            // Show the clicked section
+            const activeSection = document.getElementById(section);
+            if (activeSection) {
+                activeSection.style.display = 'block';
+            }
+        }
+    </script>
+    
+</body>
+</html>
